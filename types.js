@@ -12,7 +12,7 @@ y = 7;
 console.log(x,y);
 
 let p = {job: 'Web Developer'}
-let q = p;
+let q = p; 
 q.job = 'front end developer';
 // q = {job: 'Backend Developer'}
 console.log(p, q);
