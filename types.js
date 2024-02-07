@@ -16,4 +16,3 @@ let q = p;
 q.job = 'front end developer';
 // q = {job: 'Backend Developer'}
 console.log(p, q);
-
