@@ -1,3 +1,4 @@
+// a closure gives the access to an outer functions scope from an inner function.
 function kitchen(){
     let roast = 0;
     return function(){
@@ -7,6 +8,5 @@ function kitchen(){
 }
 
 const firstServer = kitchen();
-console.log(firstServer());
-console.log(firstServer());
+console.log(firstServer());console.log(firstServer());
 console.log(firstServer());
